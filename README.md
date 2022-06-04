@@ -7,7 +7,8 @@ oferecendo aos mesmos, alimentação e os cuidados necessários para uma boa sa�
 
 Desenvolver uma API ligada ao Banco de Dados para o armazenamento das informações. A parte Front-end tem o desenvolvimento com react e next, ligada a API., Através dela será possível consultar os pets, relatórios e realizar os cadastros.  
 
-## Aula 1 - Desenvolvimento da aplicação Front-End, utilizando react e Next.js. 
+## Aula 1 
+#### Desenvolvimento da aplicação Front-End, utilizando react e Next.js. 
 Na primeira aula foi apresentada a arquitetura geral do projeto, iniciando o desenvolvimento e a criação dos componentes da interface web. 
 Para o ambiente de trabalho foram instalados o Node.js e VSCode. Foi instalada no VSCode a extensão "Styled Components" para ajudar na identação. 
 O projeto foi iniciado com o comando: "npx create-next-app pets --ts" sem aspas, no terminal PowerShell. 
@@ -18,10 +19,14 @@ Para o projeto foi criado um tema, onde para o mesmo foi criada a pasta "themes"
 O ThemeProvider foi importado para o arquivo "_app.tsx" para a estilização de padrões de tamanhos de fontes e cores para todo o projeto.
 
 
-## Aula 2 - Iniciar o desenvolvimento da API utilizando python com django. 
+## Aula 2  
+#### Iniciar o desenvolvimento da API utilizando python com django. 
 
-## Aula 3 - Continuar o desenvolvimento da aplicação Front-End com react e Next.js, trabalhando na integração da aplicação com a API. 
+## Aula 3  
+#### Continuar o desenvolvimento da aplicação Front-End com react e Next.js, trabalhando na integração da aplicação com a API. 
 
-## Aula 4 - Trabalhando em mais 2 endpoints da API, estudando conceitos e técnicas para melhorar o desenvolvimento Back-End. 
+## Aula 4  
+#### Trabalhando em mais 2 endpoints da API, estudando conceitos e técnicas para melhorar o desenvolvimento Back-End. 
 
-## Aula 5 - Finalizar a aplicação Front-End criando relatórios de adoção e o cadastro de Pets. 
+## Aula 5  
+#### Finalizar a aplicação Front-End criando relatórios de adoção e o cadastro de Pets. 
