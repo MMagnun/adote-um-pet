@@ -1,4 +1,5 @@
-# Projeto "Adote um Pet"
+# Projeto "Adote um Pet" 
+(Alguns pushes foram feitos como master e main nesta aplicação, por esse motivo é neccessário alternar aqui no GitHub para ver todo o código e pastas do projeto.)
 
 Workshop de programação disponibilizado pela TreinaWeb, que vai desde a preparação do ambiente trabalho ao desenvolvimento da aplicação. 
 O projeto adote um pet, tem como ideia a adoção virtual de animais, onde é possível contribuir com valores mensais para poder ajudar com os gastos de animais sem lares, 
