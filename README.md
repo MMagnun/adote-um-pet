@@ -93,6 +93,12 @@ O termo "use"antes de Index é derivado do useState.
 
 ## Aula 4  
 #### Trabalhando em mais 2 endpoints da API, estudando conceitos e técnicas para melhorar o desenvolvimento Back-End. 
+Criação de rotas, visualização de pets adotados e funcionalidade de realizar novos cadastros. 
+configurar auto formatação no VS Code para o código ficar de acordo com a PEP 8 (Manual de boas práticas de escrita de código python.)
+Instalação da biblioteca de formatação "black". pip install black e configurada para identações automáticas. 
+criado o serviço de e-mail para envio de confirmação de adoção.
+Criada ação de cadastro de pets. 
+Criada a ação de listar adoções. 
 
 ## Aula 5  
 #### Finalizar a aplicação Front-End criando relatórios de adoção e o cadastro de Pets. 
