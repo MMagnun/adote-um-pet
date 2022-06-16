@@ -54,13 +54,6 @@ Criado APIView de adocao e ações de cadastro de Adoção com as propriedades e
 Em seguida instalado e configurado o CORS.  
 
  
-
-
-
-
-
-
-
 ##### *Nota: 
 O comando "deactivate" sem aspas, serve para desativar o ambiente virtual (virtualenv).  
 Comando "pip freeze" serve para mostrar as bibliotecas instaladas.
@@ -81,7 +74,22 @@ Mecanismo de segurança para garantir que recursos de uma determinada aplicaçã
 
  
 ## Aula 3  
-#### Continuar o desenvolvimento da aplicação Front-End com react e Next.js, trabalhando na integração da aplicação com a API. 
+#### Continuar o desenvolvimento da aplicação Front-End com react e Next.js, criando o restante dos componentes do front-end, realizando a instalação do Axios para fazer a integração com o back-end. 
+Criação dos campos de inserir e-mail e valor para doação, que se conecta ao pet adotado.  
+Importados os componentes { Dialog} from '@mui/material' para exibir na tela de adoção uma mensagem da adoção. 
+Para os campos de e-mail e valor foram importados o { Textfield} também do material/ui. 
+Foram importados ainda do from '@mui/material, { Grid, DialogActions, Button, Snackbar } para melhorar a visualização da descrição dos campos criados (E-mail e valor), 
+foram criadas ainda as regras de validação para e-mail e em valor só recebe caracteres numéricos. 
+Importado { useState} do react, para armazenar informações de contagens. 
+Criada a pasta "hooks" em "src/data" para criar a lógica da aplicação separada das demais funcionalidades, foi criada dentro de hooks também a pasta "pages".
+Dentro de "pages" em "hooks", foi criado o arquivo "useIndex.ts"
+Iniciado o processo de integração do front-end com o back-end. 
+Instalação do Axios, criado ApiService.ts para apontar o endereço do desenvelvimento back-end da aplicação para realizar as requisições. 
+Importado de react o useEfect, para executar uma função depois de a tela ter sido renderizada. 
+
+##### *Nota: 
+O termo "use"antes de Index é derivado do useState.
+
 
 ## Aula 4  
 #### Trabalhando em mais 2 endpoints da API, estudando conceitos e técnicas para melhorar o desenvolvimento Back-End. 

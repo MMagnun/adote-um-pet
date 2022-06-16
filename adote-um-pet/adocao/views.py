@@ -3,18 +3,18 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.status import HTTP_201_CREATED, HTTP_400_BAD_REQUEST
 
+from .models import Adocao
 from .serializers import AdocaoSerializer
 
 
-class AdocaList(APIView): 
+class AdocaoList(APIView): 
     def post(self, request, format=None): 
         serializer = AdocaoSerializer(data=request.data)
         if serializer.is_valid(): 
             serializer.save()
             return Response(serializer.data, status=HTTP_201_CREATED)
         return Response(
-            {
-                    "errors": serializer.errors, 
-                    "message": "Ocorreram erros de validação", 
+            {"errors": serializer.errors, "message": "Ocorreram erros de validação!", 
             }, 
-            status=HTTP_400_BAD_REQUEST),
+            status=HTTP_400_BAD_REQUEST, 
+        )

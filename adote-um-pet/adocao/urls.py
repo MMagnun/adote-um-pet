@@ -1,7 +1,7 @@
 from django.urls import path
 
-from .views import AdocaList
+from .views import AdocaoList
 
 urlpatterns = [
-    path('', AdocaList.as_view())
+    path('', AdocaoList.as_view())
 ]

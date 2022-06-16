@@ -19,11 +19,11 @@ class AdocaoSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         validated_data["pet"] = validated_data.pop("pet_id")
-        return super().create(validated_data)    
+        return super().create(validated_data)
 
-    def validate_valor(self, value):
-         if value < 10: 
-             raise serializers.ValidationError("O valor mínimo para doação é R$10,00")
-         if value > 100: 
-             raise serializers.ValidationError("O valor máximo para doação é R$100,00")
-         return value    
+    def validate_valor(self, value): 
+        if value < 10: 
+            raise serializers.ValidationError("O valor mínimo para doação é R$10,00")
+        if value > 100: 
+            raise serializers.ValidationError("O valor máximo para doação é R$100,00")
+        return value    
