@@ -100,5 +100,19 @@ criado o serviço de e-mail para envio de confirmação de adoção.
 Criada ação de cadastro de pets. 
 Criada a ação de listar adoções. 
 
-## Aula 5  
+Aula 5  
 #### Finalizar a aplicação Front-End criando relatórios de adoção e o cadastro de Pets. 
+Criação da tela de cadastro de novos pets para adoções, que terá um campo para nome, história e foto. 
+No campo foto, criação de um botão para carregar a imagem. No final, a criação de um botão para salvar e armazenar as informações cadastradas no banco de dados. 
+Criação da tela de relatórios, onde é possível ver a adoção e o valor da adoção para cada pet adotado (e-mail de quem adotou, pet adotado e valor da adoção).  
+Iniciando pela criação do componente de cabeçalho ou header, criando a pasta "CabecalhoAdmin" em "src/ui/componets/CabecalhoAdmin" e os arquivos: 
+"CabecalhoAdmin.tsx" e "CabecalhoAdmin.style.tsx".
+Em _app.tsx importado "CabecalhoAdmin from '../ui/components/CabecalhoAdmin/CabecalhoAdmin';" e alterada a função do "MyApp" em ThemeProvider de "Cabecalho" para "CabecalhoAdmin".
+Em estilização "CabecalhoAdmin.style.tsx", criação de um Container para o novo cabeçalho do tipo "header", carregando uma pequena logo marca do adote um pet, sendo um elemento "img" e links de "cadastrar pets" e "relatórios de adoção".
+Criação da pasta "pets" dentro da pasta "pages" e criação do arquivo "cadastro.tsx" para criar a interface da página de cadastro de pets.
+Criação de Hooks de cadastro de pets. Em "data/hooks/pages", criada a pasta "pets" e o arquivo "useCadastro.ts" dentro de "pets".
+Criação de funções de validação e limpezas de campos após ações de cadastrar ou cancelar e função de verificar se formulários foram prenchidos corretamente. 
+Criação de tela de relatórios, que exibe as adoções feitas na tela inicial. Criado o arquivo "Relatorio.ts" em "src/data/@types".
+Criação do arquivo "relatorio.tsx" em "sr/pages/pets" e validação. 
+Finalização do app.
+
